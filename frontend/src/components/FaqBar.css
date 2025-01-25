@@ -1,0 +1,33 @@
+.Faq{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 51vw;
+    height: 40px;
+    margin-top: 20px;
+    max-height:max-content ;
+    background-color: rgb(138, 196, 246);
+    border: dashed;
+    border-radius: 2px;
+    padding: 3px;
+    border-color: rgb(37, 37, 243);
+    border-radius: 8px;
+    .descp{
+        font-style: italic;
+        font-size: 20px;
+        margin-left: 10px;
+        color: black;
+    }
+    .faqBtn{
+        background-color: white;
+        margin-right: 5px;
+        color: black;
+        font-size: 14px;
+        cursor: pointer;
+
+    }
+    .faqBtn:hover{
+        background-color:  rgb(37, 37, 243);
+        color: white;
+    }
+}

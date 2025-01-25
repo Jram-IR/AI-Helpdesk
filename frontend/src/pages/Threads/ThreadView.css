@@ -1,0 +1,13 @@
+.threadView{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .input{
+        position: sticky;
+        bottom: 0;
+    }
+}
+#root{
+      background-color: #fafafa;  
+}

@@ -1,0 +1,68 @@
+/* InputBox.css */
+
+.input-container {
+  display: flex;
+  gap: 20px;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+
+.textarea-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-box {
+  flex: 1;
+  height: 32px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  resize: none;
+}
+
+.input-box::placeholder {
+  color: #b0b0b0;
+}
+
+.send-button {
+  background: none;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s;
+  .btn{
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.send-button:hover {
+  color: #0056b3;
+}
+
+.escalate-button {
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #ffffff;
+  height: 100%;
+  background-color: #5768a0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.escalate-button:hover {
+  background-color: #4763ff;
+}

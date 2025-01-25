@@ -1,0 +1,19 @@
+fastapi==0.100.0
+pydantic
+uvicorn==0.22.0
+python-dotenv==1.0.0
+pymongo==4.3.3
+
+langchain
+google-auth==2.23.2
+
+langchain-google-genai
+google-generativeai
+pinecone-client
+langchain_pinecone
+
+# FAQ extractor dependencies
+scikit-learn
+sentence-transformers
+numpy
+pydantic

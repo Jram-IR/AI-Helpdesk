@@ -1,0 +1,30 @@
+.userHomeParent{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    .profile{
+        margin-top: 20px;
+    }
+    .userHome{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: #fafafa;
+    }
+    .fab {
+        position: fixed;  /* Fixed to viewport */
+        bottom: 30px;     /* Distance from bottom */
+        right: 230px;      /* Distance from right */
+        background-color: rgb(132, 1, 132) !important;
+        width: 100px;
+        height: 100px;
+        &:hover{
+            background-color: rgb(236, 2, 236) !important;
+        }
+    }
+}
+#root{
+    background-color: #fafafa;
+}

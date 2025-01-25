@@ -1,0 +1,9 @@
+[] Login and Register page design 
+[] Embedding the documents to pinecone 
+[] Thread page design 
+[] Admin Thread Item Component
+[] User Thread Item Component
+[] Chat page design (admin only)
+[] Admin Chat Sidebar with "chat" button 
+[] FAQ page 
+

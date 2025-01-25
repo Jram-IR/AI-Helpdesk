@@ -1,0 +1,67 @@
+.app-bar {
+    background: rgba(35, 35, 104, 0.8) !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    width: 100% !important;
+  }
+  
+  .nav-items {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    position: relative;
+  }
+  
+  .nav-item {
+    display: flex;
+    flex-direction: row !important;
+    gap: 5px;
+    align-items: center;
+    transition: all 0.3s ease !important;
+    position: relative;
+    padding: 8px 16px !important;
+    border-radius: 8px !important;
+  }
+  
+  .nav-item:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    transform: translateY(-2px);
+  }
+  
+  .nav-item.active {
+    background: rgba(255, 255, 255, 0.15) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 8px 16px;
+    border-radius: 12px;
+  }
+  
+  .avatar {
+    width: 40px !important;
+    height: 40px !important;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .logoutIcon {
+    width: 30px !important;
+    height: 30px !important;
+    transition: transform 0.3s ease;
+  }
+  
+  .logoutIcon:hover {
+    transform: scale(1.1);
+  }
+  
+  .user-name {
+    margin-right: 10px;
+    font-weight: 500 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

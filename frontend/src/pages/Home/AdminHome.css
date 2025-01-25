@@ -1,0 +1,21 @@
+.adminHomeParent {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    .adminHome {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: #fafafa;
+    }
+    .escalatedQueries{
+        background-color: aqua;
+        position: fixed;
+        left: 10px;
+    }
+}
+#root {
+    background-color: #fafafa;
+}
